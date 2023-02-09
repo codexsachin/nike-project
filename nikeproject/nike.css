@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+#left {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(226, 48, 48);
+    position: relative;
+}
+
+#right {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(231, 230, 230);
+    position: relative;
+}
+
+#right>img {
+    width: 40%;
+    position: absolute;
+    top: 22%;
+    left: -22%;
+    transform: translate 15%;
+}
+
+#bottom {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: translate(0, -50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#bottom h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: gilroy;
+}
+
+#bottom p {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(27, 26, 29);
+    padding-bottom: 20px;
+}
+
+#top {
+    /* width: 65%; */
+    padding: 30px;
+    margin-left: 20px;
+}
+
+#top h1 {
+    width: 65%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 1;
+}
+
+#top h1 span {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+#top h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+#top p {
+    color: rgb(255, 255, 255);
+}
+
+#top button {
+    padding: 9px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: transparent;
+}
+
+#top button:active {
+    box-shadow: 4px 5px 10px black;
+}
+
+#right1 {
+    padding: 50px;
+    padding-left: 154px;
+    margin-top: 50px;
+}
+
+#right1 h1 {
+    color: darkred;
+    font-weight: 300;
+    font-size: 42px;
+    font-family: gilroy;
+}
+
+#right1 h1 span {
+    color: darkred;
+    font-weight: 900;
+    line-height: 1;
+}
+
+#right1 h3 {
+    color: darkred;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: gilroy;
+}
+
+#right1 h3 span {
+    color: darkred;
+    font-weight: 900;
+}
+
+#right1 p {
+    line-height: 1.3;
+    margin-top: 10px;
+    /* width: 95%; */
+    font-size: 14px;
+    font-family: gilroy;
+}
+
+#btn {
+    margin-top: 18px;
+    display: flex;
+    gap: 19px;
+}
+
+#btn :nth-child(1) {
+    cursor: pointer;
+    padding: 9px 15px;
+    color: red;
+    font-family: gilroy;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+#btn :nth-child(2) {
+    cursor: pointer;
+    padding: 7px 12px;
+    color: #fff;
+    font-family: gilroy;
+    border-radius: 25px;
+    border: 0.2px dotted black;
+    /* border: none; */
+    background-color: red;
+}
+
+#btn :nth-child(1):active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+#btn :nth-child(2):active {
+    box-shadow: 3px 5px 10px #ade153;
+}
+
+#right2 {
+    padding-left: 134px;
+    margin-top: -20px;
+}
+
+#txt {
+    margin-top: 20px;
+}
+
+#right2 {
+    padding-left: 134px;
+    margin-top: -30px;
+    display: flex;
+}
+
+#right2 img {
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.r21 {
+    cursor: pointer;
+}
